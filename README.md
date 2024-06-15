@@ -1,3 +1,5 @@
+[![Math Utility Project (CI included)](https://github.com/TsanTriDuc/math-util-fibonacci/actions/workflows/maven.yml/badge.svg)](https://github.com/TsanTriDuc/math-util-fibonacci/actions/workflows/maven.yml)
+
 #Welcome to Math Utility Repository
 
 ## You will find in this repo the followng stuff
