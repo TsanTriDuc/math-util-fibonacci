@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.635" tests="20" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.878" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire12702997179731130515\surefirebooter-20240615002218953_3.jar C:\Users\Admin\AppData\Local\Temp\surefire12702997179731130515 2024-06-15T00-22-18_548-jvmRun1 surefire-20240615002218953_1tmp surefire_0-20240615002218953_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire8830442498652084587\surefirebooter-20240615121555097_3.jar C:\Users\Admin\AppData\Local\Temp\surefire8830442498652084587 2024-06-15T12-15-54_953-jvmRun1 surefire-20240615121555097_1tmp surefire_0-20240615121555097_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Admin\Documents\NetBeansProjects\math-util-swt301\target\test-classes;C:\Users\Admin\Documents\NetBeansProjects\math-util-swt301\target\classes;C:\Users\Admin\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire12702997179731130515\surefirebooter-20240615002218953_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire8830442498652084587\surefirebooter-20240615121555097_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -60,7 +60,7 @@
     <property name="netbeans.testng.action" value="true"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testCalculateFibonacci[1, 1](1)" classname="com.dustintsan.math.util.swt301.core.test.TestNGTest" time="0.031">
+  <testcase name="testCalculateFibonacci[1, 1](1)" classname="com.dustintsan.math.util.swt301.core.test.TestNGTest" time="0.02">
     <system-out><![CDATA[Before Suite: Initialize resources
 Before Suite: Initialize resources
 Before Class: Instantiate FibonacciCalculator
@@ -108,7 +108,7 @@ Test: Calculating Fibonacci for n = 6
 Result of calculating Fibonacci for n = 6 result = 8
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateFibonacci[7, 13](7)" classname="com.dustintsan.math.util.swt301.core.test.TestNGTest" time="0.0">
+  <testcase name="testCalculateFibonacci[7, 13](7)" classname="com.dustintsan.math.util.swt301.core.test.TestNGTest" time="0.001">
     <system-out><![CDATA[After Method: Cleanup after each test method
 Before Method: Setup before each test method
 Test: Calculating Fibonacci for n = 7
@@ -136,7 +136,7 @@ Test: Calculating Fibonacci for n = 10
 Result of calculating Fibonacci for n = 10 result = 55
 ]]></system-out>
   </testcase>
-  <testcase name="testCalculateFibonacci[11, 89](1)" classname="com.dustintsan.math.util.swt301.core.test.TestNGTest2" time="0.006">
+  <testcase name="testCalculateFibonacci[11, 89](1)" classname="com.dustintsan.math.util.swt301.core.test.TestNGTest2" time="0.001">
     <system-out><![CDATA[After Method: Cleanup after each test method
 After Class: Nullify FibonacciCalculator
 Before Class: Instantiate FibonacciCalculator
